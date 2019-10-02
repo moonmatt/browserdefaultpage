@@ -1,0 +1,67 @@
+/* Reset all styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    /* Photos by Unsplash */
+    /* Thanks from moonmatt */
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://source.unsplash.com/1920x1080/?nature,water,buildings,city");
+    min-height: 100%;
+    width: 100%;
+}
+.filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    z-index: 99;
+    opacity: 0.2;
+}
+/* Text css */
+#date {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 25px;
+    color: white;
+    font-size: 10vw;
+    opacity: 1;
+    z-index: 999999999;
+}
+/* Links css */
+.links {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    margin: 5px;
+    opacity: 0.2;
+    transition: 0.3s;
+    z-index: 999999999999999;
+}
+/* Hover effects */
+.links:hover {opacity: 0.8;}
+
+
+
+
+/* Changes text size from mobile */
+/* https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    #date {
+        font-size: 25vw;
+        padding-left:5px;
+    }
+    
+  }
+
+
+  
+  
