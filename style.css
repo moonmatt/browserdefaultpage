@@ -1,3 +1,9 @@
+/* CODED BY moonmatt (moonmatt.cf) */
+/* PROJECT ON GITHUB */
+/* https://github.com/moonmatt/browserdefaultpage */
+
+
+
 /* Reset all styles */
 * {
     margin: 0;
@@ -21,7 +27,7 @@
     z-index: 99;
     opacity: 0.2;
 }
-/* Text css */
+/* DATE css */
 #date {
     font-family: 'Lato', sans-serif;
     position: absolute;
@@ -33,7 +39,7 @@
     opacity: 1;
     z-index: 999999999;
 }
-/* Links css */
+/* LINKS css */
 .links {
     font-family: 'Lato', sans-serif;
     position: absolute;

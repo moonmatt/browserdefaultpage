@@ -1,4 +1,4 @@
-# browserdefaultpage
+# Broser Default Page
 
 This is supposed to be set as your default page inside of the browser.
 
